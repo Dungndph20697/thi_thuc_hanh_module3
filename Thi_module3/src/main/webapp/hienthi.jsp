@@ -73,7 +73,7 @@
                 <td>${mb.giaThue}</td>
                 <td>${mb.ngayBatDau}</td>
                 <td>${mb.ngayKetThuc}</td>
-                <td><a href="/mat-bang?action=delete&maMB=${mb.maMB}" onclick="return confirm('Bạn có chắc chắn muốn xoá?')" class="btn btn-primary">Xoá</a></td>
+                <td><a href="/mat-bang?action=delete&maMB=${mb.maMB}" onclick="return confirm('Bạn có chắc chắn muốn xoá ${mb.maMB}?')" class="btn btn-primary">Xoá</a></td>
             </tr>
         </c:forEach>
         </tbody>
